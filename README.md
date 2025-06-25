@@ -1,15 +1,9 @@
-# git-exercise
-# Navigate to a folder where you keep projects
-cd ~/projects          # or wherever you like
-
-# Clone
-git clone https://github.com/<you>/git-exercise.git
-cd git-exercise
-
-def hello():
-    """Print a friendly greeting."""
-    print("hello")
+nano demo.py
+def goodbye():
+    """Print a friendly farewell."""
+    print("goodbye")
 
     git add demo.py
-git commit -m "Add hello() function"
-git push origin main   # or 'master' if your repo uses that branch name
+git commit -m "Add goodbye() function"
+git push origin main
+
