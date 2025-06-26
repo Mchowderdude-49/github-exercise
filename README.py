@@ -1,7 +1,8 @@
 #Ryan's Greeting
-def greeting (): 
+def greeting(): 
     print("hello")
 
+#Mohammad's Goodbye
 nano demo.py
 def goodbye():
     """Print a friendly farewell."""
